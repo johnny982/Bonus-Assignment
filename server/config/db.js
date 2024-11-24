@@ -1,0 +1,1 @@
+module.exports = {"URI":"mongodb+srv://johnathandonnelly:U22CL5JhDwMr1Yj7@cluster0.spqr7.mongodb.net/MovieDatabase2?retryWrites=true&w=majority"}

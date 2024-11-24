@@ -1,0 +1,38 @@
+<% include ../Partials/header.ejs%>
+<% include ../Partials/main_nav.ejs%>
+
+<!-- Content for Edit Page -->
+<div class="container">
+    <div class="row">
+        <div class="offset-md-3 col-md-6">
+            <h1 class="titletext"><%= title %></h1>
+            <form class="form" method="POST">
+                <div class="form-group">
+                    <label for="movieTextField">Movie Title</label>
+                    <input type="text" class="form-control" id="movieTextField"
+                    placeholder="Enter Movie Title" name="Title" value='<%= Book.Title %>' required>
+                </div>
+                <div class="form-group">
+                    <label for="genreTextField">Movie Genre/s</label>
+                    <input type="text" class="form-control" id="genreTextField"
+                    placeholder="Enter Movie Genre/s" name="Genre" value='<%= Book.Genre %>'>
+                </div>
+                <div class="form-group">
+                    <label for="ratingTextField">Your Rating</label>
+                    <input type="text" class="form-control" id="ratingTextField"
+                    placeholder="Enter Your Rating" name="Rating" value='<%= Book.Rating %>' required>
+                </div>
+                <div class="form-group">
+                    <label for="reviewTextArea">Your Review</label>
+                    <textarea type="text" class="form-control" id="reviewTextArea"
+                    placeholder="Enter Your Review" name="Review" required><%= Book.Review %></textarea>
+                </div>
+                <br>
+                <button class="btn btn-primary" type="submit"><i class="fas fa-edit"></i> Submit </button>
+                <button class="btn btn-warning" onclick="window.history.back()"><i class="fas fa-undo"></i> Cancel </button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<% include ../Partials/footer.ejs%>
