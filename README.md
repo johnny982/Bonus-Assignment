@@ -2,7 +2,10 @@
 Built off of [Assignment-03](https://github.com/johnny982/Assignment-03)
 
 ## Versions
-* **1.0.0**
+* **1.0.1**
+    * Fixed Render failed to lookup auth/login or auth/register error.
+
+* **[1.0.0](https://github.com/johnny982/Bonus-Assignment/commit/9f68ea561c6df09a437b143f0a01e92495a705df)**
     * **Full Release.**
     * Adjusted nav bar item margins.
     * Adjusted spacing around login/register buttons and "or register".
