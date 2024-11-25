@@ -83,3 +83,11 @@
     background-clip: text;
     font-weight: bolder;
 }
+
+.nav-item:nth-child(2){ /* Of all the items in the nav, the 2nd item/child */
+    margin-right: 20px;
+}
+
+.nav-item:last-child{ /* Of all the items in the nav, the last item/child */
+    margin-left: 20px;
+}

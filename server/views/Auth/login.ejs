@@ -9,7 +9,7 @@
     <% } %>
     <div class="row">
         <div class="offset-md-4 col-md-4">
-            <h1>Login</h1>
+            <h1 class="titletext">Login</h1>
             <form method="post" autocomplete="off">
                 <!--username,displayName (case sensitive)-->
                 <fieldset class="form-group">
@@ -23,11 +23,13 @@
                     <input type="password" class="form-control" 
                     name="password" placeholder="Enter password" 
                     id="password" required autofocus>
+                    <br>
                     or
                     <a href="/register">Register</a>
                 </fieldset>
+                <br>
                 <fieldset class="form-group">
-                    <input type="submit" class="btn btn-success" value="Login">
+                    <input type="submit" class="btn btn-primary" value="Login">
                     <a href="/">
                     <input type="button" class="btn btn-warning" value="Cancel">
                     </a>
